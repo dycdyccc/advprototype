@@ -65,9 +65,14 @@ header ul a {
 section {
   display: -ms-grid;
   display: grid;
-  text-align: center;
-  padding: 10em;
+  text-align: left;
+  padding: 8em;
   font-weight: bold;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
 
 footer {
