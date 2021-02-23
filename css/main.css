@@ -2,6 +2,9 @@
 body {
   margin: 0;
   font-family: 'Libre Franklin';
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
 
 ul {
@@ -56,6 +59,7 @@ header ul a {
   text-align: center;
   padding: 4em;
   font-weight: bold;
+  
 }
 
 .click {
@@ -63,22 +67,22 @@ header ul a {
 }
 
 section {
-  display: -ms-grid;
-  display: grid;
   text-align: left;
   padding: 8em;
-  font-weight: bold;
+ 
+
 }
 
 video {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
 footer {
   padding: 4em;
   font-weight: bold;
-  position: absolute;
+  bottom: 0;
+  
   background: #8572bb;
   width: 100%;
 }
