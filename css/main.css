@@ -19,6 +19,7 @@ a {
 
 .nav-container {
   background: #8572bb;
+  width: 100%;
 }
 
 .nav-container a {
@@ -71,9 +72,32 @@ section {
 
 }
 
+p {
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3em;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+h1 {
+  position: relative;
+}
+
+h3{
+  text-align: left;
+}
+
 video {
   width: 60%;
   height: auto;
+  padding-left: 14em;
+  padding-top: 4em;
+  flex:auto;
 }
 
 footer {
@@ -83,5 +107,11 @@ footer {
   
   background: #8572bb;
   width: 100%;
+}
+
+
+.flex-container {
+  display: flex;
+  align-self: center;
 }
 /*# sourceMappingURL=main.css.map */
