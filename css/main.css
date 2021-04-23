@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap");
 body {
   margin: 0;
-  font-family: 'Libre Franklin';
+  font-family: futura-pt, sans-serif;
+  
+
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -18,12 +20,13 @@ a {
 }
 
 .nav-container {
-  background: #8572bb;
+  background: #f0f0f0;
   width: 100%;
+  font-size: large;
 }
 
 .nav-container a {
-  color: white;
+  color: black;
 }
 
 header {
@@ -52,12 +55,14 @@ header ul a {
   padding: 0 1em;
 }
 
-.main {
-  background: #8572bb;
-  color: white;
+.content {
+ 
+  color: black;
   text-align: center;
   padding: 4em;
-  font-weight: bold;
+  font-weight: 300;
+
+font-style: normal;
   
 }
 
@@ -66,16 +71,19 @@ header ul a {
 }
 
 section {
-  text-align: left;
-  padding: 10em;
+  text-align: center;
+
+  padding:5em;
+ 
  
 
 }
 
 p {
-  padding: 1em;
+  padding-left: 30em;
+  padding-right: 30em;
   text-align: center;
-  font-weight: bold;
+ 
   padding-bottom: 3em;
 }
 
@@ -95,9 +103,11 @@ h3{
 video {
   width: 60%;
   height: auto;
-  padding-left: 14em;
+ 
   padding-top: 4em;
   flex:auto;
+  align-items: center;
+  padding-bottom: 10em;
 }
 
 footer {
@@ -105,13 +115,26 @@ footer {
   font-weight: bold;
   bottom: 0;
   
-  background: #8572bb;
+  background: #f0f0f0;
   width: 100%;
+}
+
+.reading {
+  text-align: left;
+  padding: 4em;
+  font-weight: 300;
+
 }
 
 
 .flex-container {
   display: flex;
-  align-self: center;
+  align-items: center;
+  padding-right: 20em;
+  padding-left: 20em;
 }
+
+
+
+
 /*# sourceMappingURL=main.css.map */
